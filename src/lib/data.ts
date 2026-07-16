@@ -2,7 +2,7 @@ export const siteConfig = {
   name: "Photopark",
   tagline: "Timeless Stories, Artfully Told",
   description: "Photopark is the finest photographer in Hyderabad, Nellore, and Kavali — specializing in weddings, maternity, and baby shoots. We capture timeless, artful stories with a blend of photojournalistic authenticity and fine-art aesthetics. Book your session today.",
-  url: "https://photoparkphotography.com",
+  url: "https://photopark-woad.vercel.app",
   email: "hello@photoparkphotography.com",
   phone: "+91 98765 43210",
   whatsapp: "919876543210",
