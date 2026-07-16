@@ -5,7 +5,12 @@ import { siteConfig } from "@/lib/data";
 
 export const metadata: Metadata = {
   title: "About",
-  description: `Learn about ${siteConfig.name} Photography — our story, philosophy, and the person behind the lens.`,
+  description: `Learn about ${siteConfig.name} Photography — the finest wedding, maternity & baby photographer in Hyderabad, Nellore & Kavali.`,
+  openGraph: {
+    title: "About | Photopark Photography",
+    description: `Learn about ${siteConfig.name} Photography — our story, philosophy, and the person behind the lens.`,
+    images: [{ url: "/og-image.png", width: 1200, height: 630 }],
+  },
 };
 
 export default function AboutPage() {

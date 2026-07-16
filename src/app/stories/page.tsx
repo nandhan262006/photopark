@@ -4,7 +4,12 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Stories",
-  description: "Featured wedding stories captured by Photopark Photography.",
+  description: "Featured wedding stories captured by Photopark Photography — real couples, real moments, real love.",
+  openGraph: {
+    title: "Stories | Photopark Photography",
+    description: "Featured wedding stories captured by Photopark Photography.",
+    images: [{ url: "/og-image.png", width: 1200, height: 630 }],
+  },
 };
 
 const stories = [

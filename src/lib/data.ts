@@ -20,6 +20,10 @@ export const navLinks = [
 ];
 
 export const galleryItems = [
+  { title: "Eternal Promise", category: "Wedding", image: "/gallery10.png" },
+  { title: "Baby Bliss", category: "Maternity", image: "/gallery11.png" },
+  { title: "Sacred Rituals", category: "Wedding", image: "/gallery12.png" },
+  { title: "Tiny Toes", category: "Newborn", image: "/gallery13.png" },
   { title: "Golden Hour Romance", category: "Pre-Wedding", image: "/gallery1.png" },
   { title: "Sacred Vows", category: "Wedding", image: "/gallery2.png" },
   { title: "Joyful Tears", category: "Wedding", image: "/gallery3.png" },

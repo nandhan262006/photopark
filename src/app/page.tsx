@@ -63,10 +63,13 @@ export default function HomePage() {
                 Capturing Moments That Last Forever
               </h2>
               <p className="text-muted leading-relaxed mb-4">
-                With over a decade of experience, I specialize in wedding, portrait, and event photography across Nellore and beyond. My approach blends photojournalistic authenticity with fine-art aesthetics.
+                With over a decade of experience, I specialize in wedding, portrait, and event photography across Nellore and beyond. My approach blends photojournalistic authenticity with fine-art aesthetics — capturing not just how your day looked, but how it felt.
               </p>
-              <p className="text-muted leading-relaxed mb-6">
-                Every couple has a unique story — I&apos;m here to tell yours through images that feel as real as the moments themselves.
+              <p className="text-muted leading-relaxed mb-4">
+                Every couple has a unique story — I&apos;m here to tell yours through images that feel as real as the moments themselves. From the nervous excitement before the ceremony to the joyous celebrations on the dance floor, every fleeting moment is preserved with artistry and care.
+              </p>
+              <p className="text-muted leading-relaxed mb-4">
+                Whether it&apos;s a grand wedding, an intimate maternity session, or a adorable baby shoot — I bring the same passion, attention to detail, and creative vision to every project. Based in Nellore, serving Hyderabad and Kavali.
               </p>
               <p className="text-sm uppercase tracking-[0.15em] font-semibold text-accent mb-8">
                 Hyderabad &nbsp;|&nbsp; Nellore &nbsp;|&nbsp; Kavali

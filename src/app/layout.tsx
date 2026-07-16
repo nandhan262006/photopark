@@ -20,17 +20,42 @@ const montserrat = Montserrat({
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
-    title: {
-      default: `${siteConfig.name} Photography | Finest Wedding, Maternity & Baby Photographer in Hyderabad, Nellore & Kavali`,
-      template: `%s | ${siteConfig.name} Photography`,
-    },
+  title: {
+    default: `${siteConfig.name} Photography | Finest Wedding, Maternity & Baby Photographer in Hyderabad, Nellore & Kavali`,
+    template: `%s | ${siteConfig.name} Photography`,
+  },
+  description: siteConfig.description,
+  keywords: [
+    "wedding photographer Hyderabad",
+    "wedding photographer Nellore",
+    "wedding photographer Kavali",
+    "maternity photography",
+    "baby photography",
+    "pre-wedding shoot",
+    "event photography",
+    "Photopark Photography",
+  ],
+  openGraph: {
+    type: "website",
+    locale: "en_IN",
+    siteName: siteConfig.name,
+    title: `${siteConfig.name} Photography | Finest Wedding, Maternity & Baby Photographer`,
     description: siteConfig.description,
-    openGraph: {
-      type: "website",
-      locale: "en_IN",
-      siteName: siteConfig.name,
-      images: [{ url: "/homepage.png", width: 1200, height: 630 }],
-    },
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: `${siteConfig.name} Photography — Wedding, Maternity & Baby Photographer`,
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: `${siteConfig.name} Photography | Finest Wedding, Maternity & Baby Photographer`,
+    description: siteConfig.description,
+    images: ["/og-image.png"],
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

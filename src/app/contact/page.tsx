@@ -3,7 +3,12 @@ import { siteConfig } from "@/lib/data";
 
 export const metadata: Metadata = {
   title: "Contact",
-  description: `Get in touch with ${siteConfig.name} Photography for weddings, portraits, and event photography.`,
+  description: `Get in touch with ${siteConfig.name} Photography for weddings, maternity, baby shoots & events in Hyderabad, Nellore & Kavali.`,
+  openGraph: {
+    title: "Contact | Photopark Photography",
+    description: `Book your wedding, maternity, or baby photography session with ${siteConfig.name}.`,
+    images: [{ url: "/og-image.png", width: 1200, height: 630 }],
+  },
 };
 
 export default function ContactPage() {

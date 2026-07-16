@@ -4,7 +4,12 @@ import { GalleryClient } from "@/components/Gallery";
 
 export const metadata: Metadata = {
   title: "Gallery",
-  description: "Browse our portfolio of wedding, pre-wedding, portrait, and event photography.",
+  description: "Browse our portfolio of wedding, pre-wedding, maternity, baby, and event photography in Hyderabad, Nellore & Kavali.",
+  openGraph: {
+    title: "Gallery | Photopark Photography",
+    description: "Browse our portfolio of wedding, pre-wedding, maternity, baby, and event photography.",
+    images: [{ url: "/og-image.png", width: 1200, height: 630 }],
+  },
 };
 
 export default function GalleryPage() {
